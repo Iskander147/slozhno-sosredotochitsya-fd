@@ -1,5 +1,160 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+.header{
+min-height: max(100dvh, 668px);
+background-image: var(--page-bg-image);
+  background-size: cover;        
+  background-position: center;   
+}
+
+.title__decor{
+color: rgba(0, 0, 40, 1);
+}
+
+.header__rec-text {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  position: relative;
+  justify-self: end;
+  color: rgba(255, 0, 112, 1);
+  padding: 10px;
+  gap: 10px;
+  padding-right: 38px;
+}
+
+
+.header__rec-text::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ff0070;
+
+  top: 50%;
+  right: 20px; 
+  transform: translateY(-50%);
+
+  box-shadow: 0 0 6px 3px #ff0070;
+}
+
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #ff0070;
+  border-right: 1px solid #ff0070;
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid #ff0070;
+  border-left: 1px solid #ff0070;
+}
+
+
+.header__theme-menu{
+  display: grid;
+  justify-self: end;
+  padding-right: 10px;
+}
+
+.header__theme-menu-list{
+  display: grid;
+  grid-column: 1;
+  gap: 10px;
+  padding-top: 75px;
+}
+
+.header__theme-menu-button{
+  background-color: inherit;
+  color: rgba(255, 0, 112, 1);
+  border:none;
+}
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--page-bg-color);
+/* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+.header__focus{
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  color: rgba(219, 0, 255, 1);
+  font-weight: 700;
+  line-height: 83%;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  padding-left: 10px;
+  padding-bottom: 55px;
+}
+
+.header__contain-text{
+  width: 355px;
+  height: 117px;
+  background-color: #ff0070;
+  margin: 0 auto;
+  font-size: 18px;
+line-height: 23.4px;
+font-weight: bold;
+}
+
+.header__text{
+font-size: 18px;
+line-height: 23.4px;
+color: rgba(0, 0, 40, 1);
+font-weight: bold;
+}
+
+.main__title{
+  padding-top: 40px;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
+  color: rgba(255, 0, 112, 1);
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.main__elements{
+width: 355px;
+margin:0 auto;
+background-color: #ff0070;
+color: var(--page-bg-color);
+font-size: 18px;
+line-height: 23.4px;
+font-weight: 700;
+}
+
+.main__text{
+  max-width: 355px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: rgba(241, 178, 206, 1);
+  margin: 0 auto;
+}
+.main__text-link{
+text-decoration: none;
+text-shadow: 2px 0px 0 var(--accent-color);
+}
+
+.main__dopamine{
+  margin-top: 20px;
+}
+
+.main__text-padding{
+  padding-bottom: 50px;
 }
