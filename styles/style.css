@@ -6,9 +6,6 @@ background-image: var(--page-bg-image);
   background-position: center;   
 }
 
-.title__decor{
-color: rgba(0, 0, 40, 1);
-}
 
 .header__rec-text {
   display: flex;
@@ -31,11 +28,9 @@ color: rgba(0, 0, 40, 1);
   height: 9px;
   border-radius: 50%;
   background: #ff0070;
-
   top: 50%;
   right: 20px; 
   transform: translateY(-50%);
-
   box-shadow: 0 0 6px 3px #ff0070;
 }
 
@@ -67,6 +62,7 @@ color: rgba(0, 0, 40, 1);
 }
 
 
+
 .header__theme-menu{
   display: grid;
   justify-self: end;
@@ -91,11 +87,11 @@ color: rgba(0, 0, 40, 1);
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 .header__focus{
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: 116px;
   color: rgba(219, 0, 255, 1);
   font-weight: 700;
   line-height: 83%;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   padding-left: 10px;
   padding-bottom: 55px;
 }
@@ -109,6 +105,9 @@ color: rgba(0, 0, 40, 1);
 line-height: 23.4px;
 font-weight: bold;
 }
+.header__contain-text p{
+  font-weight: 700;
+}
 
 .header__text{
 font-size: 18px;
@@ -116,6 +115,8 @@ line-height: 23.4px;
 color: rgba(0, 0, 40, 1);
 font-weight: bold;
 }
+
+/*-----------------------------------------*/
 
 .main__title{
   padding-top: 40px;
@@ -145,7 +146,13 @@ font-weight: 700;
   line-height: 23.4px;
   color: rgba(241, 178, 206, 1);
   margin: 0 auto;
+  padding-bottom: 20px;
 }
+
+.main__text-concentration{
+  padding-top: 9px;
+}
+
 .main__text-link{
 text-decoration: none;
 text-shadow: 2px 0px 0 var(--accent-color);
@@ -157,4 +164,85 @@ text-shadow: 2px 0px 0 var(--accent-color);
 
 .main__text-padding{
   padding-bottom: 50px;
+}
+
+.main__title-concentration{
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
+  color: rgba(255, 0, 112, 1);
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.main__elements-margin{
+  margin-bottom: 20px;
+}
+
+.title__decor{
+  color: var(--page-bg-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+
+/*-----------------------------------*/
+
+.gallery {
+  display: grid;
+  grid-template-columns:  minmax(355px, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img__padding{
+  padding-bottom: 40px;
+}
+
+/*------------------------------------------*/
+
+.footer{
+  height: 100vh;
+  min-height: 668px;
+  display: grid;
+  place-items: center; /* сразу по двум осям */
+  padding: 20px;
+}
+.footer__focus{
+  font-size: 116px;
+  color: rgba(219, 0, 255, 1);
+  font-weight: 700;
+  line-height: 83%;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #ff0070;
+  border-right: 1px solid #ff0070;
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid #ff0070;
+  border-left: 1px solid #ff0070;
 }
