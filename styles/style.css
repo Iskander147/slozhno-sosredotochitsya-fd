@@ -1,11 +1,18 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .header{
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content; 
 min-height: max(100dvh, 668px);
 background-image: var(--page-bg-image);
-  background-size: cover;        
-  background-position: center;   
+background-size: cover;        
+background-position: center;   
+padding: 10px;
 }
 
+.header__contain{
+  display: grid;
+  gap: 35px;
+}
 
 .header__rec-text {
   display: flex;
@@ -15,9 +22,7 @@ background-image: var(--page-bg-image);
   position: relative;
   justify-self: end;
   color: rgba(255, 0, 112, 1);
-  padding: 10px;
-  gap: 10px;
-  padding-right: 38px;
+  padding-right: 28px;
 }
 
 
@@ -28,8 +33,8 @@ background-image: var(--page-bg-image);
   height: 9px;
   border-radius: 50%;
   background: #ff0070;
-  top: 50%;
-  right: 20px; 
+  top: 55%;
+  right: 10px; 
   transform: translateY(-50%);
   box-shadow: 0 0 6px 3px #ff0070;
 }
@@ -61,19 +66,19 @@ background-image: var(--page-bg-image);
   border-left: 1px solid #ff0070;
 }
 
-
-
 .header__theme-menu{
-  display: grid;
-  justify-self: end;
-  padding-right: 10px;
+display: grid;
+align-items: center;
+justify-self: end;
+font-size: 18px;
+  
 }
 
 .header__theme-menu-list{
   display: grid;
+   align-items: center;
   grid-column: 1;
   gap: 10px;
-  padding-top: 75px;
 }
 
 .header__theme-menu-button{
@@ -92,18 +97,15 @@ background-image: var(--page-bg-image);
   font-weight: 700;
   line-height: 83%;
   text-shadow: 2px 2px 0 var(--accent-color);
-  padding-left: 10px;
-  padding-bottom: 55px;
+  margin-top: 65px;
 }
 
 .header__contain-text{
-  width: 355px;
-  height: 117px;
+  max-width: 355px;
+width: 100%;
   background-color: #ff0070;
-  margin: 0 auto;
-  font-size: 18px;
-line-height: 23.4px;
-font-weight: bold;
+margin-top: 55px;
+
 }
 .header__contain-text p{
   font-weight: 700;
@@ -117,7 +119,10 @@ font-weight: bold;
 }
 
 /*-----------------------------------------*/
-
+.main{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .main__title{
   padding-top: 40px;
   font-size: 18px;
@@ -246,3 +251,93 @@ text-shadow: 2px 0px 0 var(--accent-color);
   border-bottom: 1px solid #ff0070;
   border-left: 1px solid #ff0070;
 }
+
+@media (width >= 768px) {
+  .header {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr min-content;
+  }
+  .header__contain{
+    gap: 146px;
+  }
+.header__focus {
+  margin-left: -20px; 
+  font-size: 116px;
+  color: rgba(219, 0, 255, 1);
+  font-weight: 700;
+  line-height: 83%;
+  text-shadow: 2px 2px 0 var(--accent-color);
+   margin-top: 173px;
+   font-size: 120px;
+}
+.header__contain-text{
+  display: grid;
+  margin-top: 162px;
+  margin-bottom: 183px;
+  justify-self: end;
+}
+  .decorated-zone::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 20px;
+  }
+  .decorated-zone::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  .main {
+  display: grid;
+  /* Создаем две колонки: левая для заголовка, правая для контента */
+  grid-template-columns: 1fr 372px; 
+  gap: 20px; /* Отступ между колонками */
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.main__title{
+  padding-top: 0;
+  padding-left: 0;
+}
+.main__text{
+margin: 0;
+}
+.main__elements{
+margin: 0;
+}
+.main__concentration-factors{
+
+}
+}
+
+@media (width >= 1024px) {
+  .header__theme-menu-list {
+    display: grid;
+    align-items: center;
+    grid-column: 1;
+    gap: 10px;
+    grid-auto-flow: column;
+}
+.header__theme-menu{
+  margin: 0 auto;
+}
+  .header__contain{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 0px;
+  }
+  .header__focus{
+    font-size: 157px;
+  }
+}
+
+
+
+
