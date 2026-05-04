@@ -1,5 +1,17 @@
-:root {
-} 
+:root.theme-light {
+  --page-bg-image: url("../images/cover-image-light.png");
+  --page-bg-color: #fff1f7;
+  --accent-color: rgba(255, 141, 203, 1);
+  --header__clr-menu: rgba(53, 52, 48, 1);
+  --text-color: rgba(53, 52, 48, 1);
+  --focus-color: rgba(255, 194, 230, 1);
+  --contain-color: rgba(255, 141, 203, 1);
+  --main-text-color: rgba(53, 52, 48, 1);
+  --rec-text-color: rgba(53, 52, 48, 0);
+  --decorated-zone-color: rgba(53, 52, 48, 1);
+  --header__menu-border: rgba(53, 52, 48, 1);
+  --header__menu-hover: rgba(50, 49, 45, 0.4);
+}
 
 /*
   Специально для светлой темы при наличии класса.
@@ -7,9 +19,19 @@
   переключая тему
 */
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
+@media (prefers-color-scheme: light) {
+  html.theme-light {
+     --page-bg-image: url("../images/cover-image-light.png");
+  --page-bg-color: #fff1f7;
+  --accent-color: rgba(255, 141, 203, 1);
+  --header__clr-menu: rgba(53, 52, 48, 1);
+  --text-color: rgba(53, 52, 48, 1);
+  --focus-color: rgba(255, 194, 230, 1);
+  --contain-color: rgba(255, 141, 203, 1);
+  --main-text-color: rgba(53, 52, 48, 1);
+  --rec-text-color: rgba(53, 52, 48, 0);
+  --decorated-zone-color: rgba(53, 52, 48, 1);
+  --header__menu-border: rgba(53, 52, 48, 1);
+  --header__menu-hover: rgba(50, 49, 45, 0.4);
+  }
+ }

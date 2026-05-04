@@ -1,10 +1,21 @@
-:root {
-  --page-bg-image: url("../images/cover-image-dark.png");
-  --page-bg-color:rgb(4, 4, 47);
-  --accent-color:#ff0070;
-}
 
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+ @media (prefers-color-scheme: dark) {
+  html.theme-auto {
+    --page-bg-color: rgb(4, 4, 47);
+    --text-color: rgba(241, 178, 206, 1);
+    --accent-color: #ff0070;
+    --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: rgb(4, 4, 47);
+  --accent-color: #ff0070;
+  --header__clr-menu: rgba(255, 0, 112, 1);
+  --text-color: rgba(0, 0, 40, 1);
+  --focus-color: rgba(219, 0, 255, 1);
+  --contain-color: rgba(255, 0, 112, 1);
+  --main-text-color: rgba(241, 178, 206, 1);
+  --rec-text-color: rgba(255, 0, 112, 1);
+  --decorated-zone-color: #ff0070;
+  --header__menu-border: rgba(255, 0, 112, 1);
+  --header__menu-hover: rgba(255, 0, 112, 0.4);
+  }
+ }
+
