@@ -1,4 +1,4 @@
-:root.theme-light {
+.theme-light {
   --page-bg-image: url("../images/cover-image-light.png");
   --page-bg-color: #fff1f7;
   --accent-color: rgba(255, 141, 203, 1);
@@ -13,25 +13,31 @@
   --header__menu-hover: rgba(50, 49, 45, 0.4);
 }
 
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+@media (prefers-color-scheme: dark) {
+  .theme-light {
+    --scrollbar-track-color: #000000;
+    --scrollbar-thumb-color: #535252;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+  }
+}
 
 @media (prefers-color-scheme: light) {
-  html.theme-light {
-     --page-bg-image: url("../images/cover-image-light.png");
-  --page-bg-color: #fff1f7;
-  --accent-color: rgba(255, 141, 203, 1);
-  --header__clr-menu: rgba(53, 52, 48, 1);
-  --text-color: rgba(53, 52, 48, 1);
-  --focus-color: rgba(255, 194, 230, 1);
-  --contain-color: rgba(255, 141, 203, 1);
-  --main-text-color: rgba(53, 52, 48, 1);
-  --rec-text-color: rgba(53, 52, 48, 0);
-  --decorated-zone-color: rgba(53, 52, 48, 1);
-  --header__menu-border: rgba(53, 52, 48, 1);
-  --header__menu-hover: rgba(50, 49, 45, 0.4);
+  .theme-light {
+    --scrollbar-track-color: #ffffff;
+    --scrollbar-thumb-color: rgb(196, 196, 196);
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
   }
- }
+}
+.theme-light::-webkit-scrollbar {
+  width: 14px;
+}
+
+.theme-light::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.theme-light::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbar-track-color);
+}

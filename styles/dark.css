@@ -1,12 +1,5 @@
-
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
---page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: rgb(4, 4, 47);
   --accent-color: #ff0070;
   --header__clr-menu: rgba(255, 0, 112, 1);
@@ -18,4 +11,33 @@
   --decorated-zone-color: #ff0070;
   --header__menu-border: rgba(255, 0, 112, 1);
   --header__menu-hover: rgba(255, 0, 112, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-dark {
+    --scrollbar-track-color: #000000;
+    --scrollbar-thumb-color: #535252;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .theme-dark {
+    --scrollbar-track-color: #ffffff;
+    --scrollbar-thumb-color: #cccccc;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+  }
+}
+
+.theme-dark::-webkit-scrollbar {
+  width: 15px;
+}
+
+.theme-dark::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color);
+}
+
+.theme-dark::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 6px;
 }
