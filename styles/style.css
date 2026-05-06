@@ -243,10 +243,6 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.decorated-zone {
-  position: relative;
-}
-
 .decorated-zone::before {
   content: "";
   position: absolute;
@@ -282,7 +278,6 @@
 
   .header__focus {
     margin-left: -20px;
-    font-size: 116px;
     color: var(--focus-color);
     font-weight: 700;
     line-height: 83%;
