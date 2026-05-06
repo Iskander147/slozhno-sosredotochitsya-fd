@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   padding: 10px;
+  height: 100%;
 }
 
 .header__contain {
@@ -98,6 +99,7 @@
 }
 
 .page {
+  background-attachment: fixed;
   background-color: var(--page-bg-color);
 }
 
@@ -228,7 +230,7 @@
 }
 
 .footer {
-  height: 100vh;
+  height: 100%;
   min-height: 668px;
   display: grid;
   place-items: center;
@@ -414,9 +416,7 @@
     min-height: 1024px;
     padding: 20px;
   }
-    .footer {
-    padding: 20px;
-}
+
 
   .decorated-zone::after {
     bottom: 20px;
