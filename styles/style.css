@@ -1,4 +1,4 @@
-.header {
+header {
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
   background-image: var(--page-bg-image);
@@ -245,7 +245,7 @@
 }
 
 @media (width >= 768px) {
-  .header {
+  header {
     min-height: 100vh;
     padding: 20px;
     display: grid;
@@ -424,7 +424,7 @@
 }
 
 @media (width >= 1024px) {
-  .header {
+  header {
     min-height: 100vh;
   }
 
