@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
-  min-height: max(100vh, 668px);
+  min-height: 100vh;
   background-image: var(--page-bg-image);
   background-size: cover;
   background-position: center;
@@ -229,7 +229,7 @@
 }
 
 .footer {
-  min-height: max(100vh, 668px);
+  min-height: 100vh;
   display: grid;
   place-items: center;
   padding: 10px;
