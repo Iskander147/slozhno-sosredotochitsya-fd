@@ -1,4 +1,4 @@
-header {
+.header {
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
   min-height: 100vh;
@@ -229,7 +229,7 @@ header {
   padding-bottom: 20px;
 }
 
-footer {
+.footer {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -246,6 +246,7 @@ footer {
 
 @media (width >= 768px) {
   .header {
+    min-height: 100vh;
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr 1fr min-content;
@@ -411,6 +412,7 @@ footer {
   }
 
   .footer {
+      min-height: 100vh;
     margin-top: 60px;
     min-height: 1024px;
     padding: 20px;
@@ -471,6 +473,7 @@ footer {
   }
   
   .footer {
+      min-height: 100vh;
     padding: 20px;
 }
 
