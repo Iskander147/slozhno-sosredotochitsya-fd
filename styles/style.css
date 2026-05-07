@@ -426,6 +426,10 @@
 }
 
 @media (width >= 1024px) {
+  .header{
+    min-height: 100vh;
+  }
+  
   .header__theme-menu-list {
     display: grid;
     align-items: center;
@@ -473,7 +477,7 @@
   }
   
   .footer {
-      min-height: 100vh;
+    min-height: 100vh;
     padding: 20px;
 }
 
