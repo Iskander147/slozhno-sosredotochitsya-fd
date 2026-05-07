@@ -1,11 +1,11 @@
 .header {
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
-  min-height: 100vh;
   background-image: var(--page-bg-image);
   background-size: cover;
   background-position: center;
   padding: 10px;
+  min-height: 100vh;
 }
 
 .header__contain {
@@ -412,9 +412,8 @@
   }
 
   .footer {
-      min-height: 100vh;
+    min-height: 100vh;
     margin-top: 60px;
-    min-height: 1024px;
     padding: 20px;
   }
 
@@ -429,7 +428,7 @@
   .header{
     min-height: 100vh;
   }
-  
+
   .header__theme-menu-list {
     display: grid;
     align-items: center;
