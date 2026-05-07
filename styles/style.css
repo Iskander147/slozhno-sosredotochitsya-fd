@@ -1,4 +1,4 @@
-.header {
+header {
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
   min-height: 100vh;
@@ -228,7 +228,7 @@
   padding-bottom: 20px;
 }
 
-.footer {
+footer {
   min-height: 100vh;
   display: grid;
   place-items: center;
