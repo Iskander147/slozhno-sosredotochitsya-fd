@@ -126,7 +126,7 @@
 .header__contain-text p {
   font-weight: 700;
   font-size: 18px;
-  line-height: 23.4px
+  line-height: 23.4px;
 }
 
 .header__text {
@@ -254,7 +254,7 @@
   }
 
   .header__contain {
-    gap: 146px ;
+    gap: 146px;
   }
 
   .header__focus {
