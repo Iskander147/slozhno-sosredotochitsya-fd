@@ -267,6 +267,7 @@
   }
 
   .header__contain-text {
+    margin-right: 3px;
     display: grid;
     margin-top: 162px;
     margin-bottom: 183px;
