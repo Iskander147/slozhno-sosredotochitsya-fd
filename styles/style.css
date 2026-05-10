@@ -231,7 +231,7 @@
 }
 
 .footer {
-  min-height: 650px;
+  min-height: 680px;
   display: grid;
   place-items: center;
   padding: 10px;
