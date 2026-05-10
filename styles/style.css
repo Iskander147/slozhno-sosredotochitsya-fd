@@ -246,7 +246,7 @@
 
 @media (width >= 768px) {
   .header {
-    height: 100vh;
+    height: 123vh;;
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr 1fr min-content;
