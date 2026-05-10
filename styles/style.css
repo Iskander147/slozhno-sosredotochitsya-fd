@@ -1,5 +1,5 @@
 .header {
-  height: 104vh;
+  height: 668px;
   display: grid;
   grid-template-rows: min-content min-content min-content min-content;
   background-image: var(--page-bg-image);
@@ -231,7 +231,7 @@
 }
 
 .footer {
-  min-height: 104vh;
+  min-height: 668px;
   display: grid;
   place-items: center;
   padding: 10px;
