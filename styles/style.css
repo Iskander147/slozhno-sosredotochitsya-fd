@@ -238,7 +238,6 @@
 }
 
 .footer__focus {
-  padding-top: 10px;
   font-size: 116px;
   color: var(--focus-color);
   font-weight: 700;
