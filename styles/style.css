@@ -451,6 +451,7 @@
   }
 
   .header__focus {
+    margin-top: 200px;
     color: var(--focus-color);
     text-shadow: 4px 4px 0 var(--accent-color);
     font-size: 157px;
