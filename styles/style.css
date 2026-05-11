@@ -451,14 +451,15 @@
   }
 
   .header__focus {
-    margin-top: 250px;
+    margin-top: 273px;
     color: var(--focus-color);
     text-shadow: 4px 4px 0 var(--accent-color);
     font-size: 157px;
   }
 
   .header__contain-text {
-    margin-bottom: 114px;
+    margin-top: 114px;
+    margin-bottom: 134px;
     max-width: 491px;
   }
 
