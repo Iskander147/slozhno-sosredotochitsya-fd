@@ -357,6 +357,7 @@
   .main__text-padding {
     margin-bottom: 80px;
   }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(5, 3fr) 479px;
@@ -471,7 +472,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(5, 3fr) 314px;
+    
   }
 
   .footer {
