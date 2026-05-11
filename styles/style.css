@@ -427,7 +427,7 @@
 @media (width >= 1024px) {
   .header {
     height: 768px;
-      grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
   }
 
   .header__theme-menu-list {
@@ -461,6 +461,12 @@
     margin-bottom: 114px;
     max-width: 491px;
   }
+
+  .main__concentration-factors {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr) 315px;
+    }
 
   .main__elements-factors {
     grid-template-columns: 315px 1fr;
