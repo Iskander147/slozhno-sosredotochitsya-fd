@@ -427,11 +427,12 @@
 @media (width >= 1024px) {
   .header {
     height: 768px;
+      grid-template-rows: auto 1fr auto;
   }
 
   .header__theme-menu-list {
     display: grid;
-    margin-left: 10px;
+    margin-left: 40px;
     gap: 10px;
     grid-auto-flow: column;
   }
