@@ -451,7 +451,7 @@
   }
 
   .header__focus {
-    margin-top: 225px;
+    margin-top: 250px;
     color: var(--focus-color);
     text-shadow: 4px 4px 0 var(--accent-color);
     font-size: 157px;
@@ -488,9 +488,13 @@
   }
 
   .footer {
-    min-height: 100vh;
+    min-height: 768px;
     padding: 20px;
   }
+
+  .footer__focus {
+    font-size: 157px;
+}
 
   .decorated-zone::after {
     bottom: 20px;
