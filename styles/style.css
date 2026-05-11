@@ -85,9 +85,9 @@
 }
 
 .header__theme-menu-button_active {
-    pointer-events: none;
-    border: 1px solid var(--header__menu-border);
-    width: 67px;
+  pointer-events: none;
+  border: 1px solid var(--header__menu-border);
+  width: 67px;
 }
 
 .header__theme-menu-button:hover {
@@ -431,6 +431,10 @@
   }
 
   .header__theme-menu-list {
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    display: grid;
     display: grid;
     margin-left: 40px;
     gap: 10px;
@@ -467,7 +471,7 @@
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(2, 3fr) 315px;
-    }
+  }
 
   .main__elements-factors {
     grid-template-columns: 315px 1fr;
@@ -501,7 +505,7 @@
 
   .footer__focus {
     font-size: 157px;
-}
+  }
 
   .decorated-zone::after {
     bottom: 20px;
