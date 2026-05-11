@@ -364,7 +364,7 @@
     grid-template-rows: repeat(1, 1fr);
     gap: 20px;
     box-sizing: border-box;
-    min-height: calc(100vh - 80px);
+    min-height: 780px;
     padding: 0;
   }
 
