@@ -412,7 +412,7 @@
   }
 
   .footer {
-    min-height: 100vh;
+    min-height: 1024px;
     margin-top: 60px;
     padding: 20px;
   }
