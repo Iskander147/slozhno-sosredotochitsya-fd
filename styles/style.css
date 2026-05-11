@@ -465,7 +465,6 @@
       .main__elements-factors {
         grid-template-columns: 315px 1fr;
     }
-}
 
   .main__concentration-ways {
     display: grid;
