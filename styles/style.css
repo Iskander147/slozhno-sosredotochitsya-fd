@@ -298,6 +298,7 @@
   }
 
   .main__text {
+    padding-bottom: 0;
     grid-column: 2;
     max-width: 100%;
     margin: 0;
