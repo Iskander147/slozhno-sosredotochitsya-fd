@@ -426,13 +426,12 @@
 
 @media (width >= 1024px) {
   .header {
-    height: 100vh;
+    height: 768px;
   }
 
   .header__theme-menu-list {
     display: grid;
-    align-items: center;
-    grid-column: 1;
+    margin-left: 10px;
     gap: 10px;
     grid-auto-flow: column;
   }
