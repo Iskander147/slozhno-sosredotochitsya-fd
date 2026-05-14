@@ -136,6 +136,7 @@
 }
 
 .main__title {
+  max-width: 355px;
   padding-top: 40px;
   font-size: 18px;
   line-height: 23.4px;
@@ -285,7 +286,7 @@
     padding: 0px 20px 0 20px;
   }
 
-  .main__elements-factors {
+  .content-section {
     display: grid;
     grid-template-columns: 236px 1fr;
     gap: 20px;
@@ -472,7 +473,7 @@
     grid-template-columns: repeat(2, 3fr) 315px;
   }
 
-  .main__elements-factors {
+  .content-section {
     grid-template-columns: 315px 1fr;
   }
 

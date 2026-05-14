@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
     <meta name="color-scheme" content="dark light" />
-    <link rel="icon" href="favicon.ico" sizes="any" />
-    <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" href="/images/favicon.ico" sizes="any" />
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/mobile-icon.png" />
   </head>
   <body class="page">
     <header class="header decorated-zone">
       <div class="header__contain">
-        <div class="header__rec-text" aria-hidden>REC</div>
+        <span class="header__rec-text" aria-hidden>REC</span>
         <nav class="header__theme-menu">
           <ul class="header__theme-menu-list">
             <li class="header__theme-menu-item">
@@ -59,10 +59,10 @@
     </header>
 
     <main class="main">
-      <section class="main__elements-factors">
-        <h2 class="main__title">Почему сосредоточиться так <br />сложно</h2>
+      <section class="content-section">
+        <h2 class="main__title">Почему сосредоточиться так сложно</h2>
         <div>
-          <div class="main__elements">Многозадачность</div>
+          <h3 class="main__elements">Многозадачность</h3>
           <p class="main__text">
             Особенно сложно сосредоточиться, когда задач много и все они —
             важные. Где же легендарная многозадачность, когда она так нужна вам
@@ -79,8 +79,8 @@
             этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </p>
         </div>
-        <div class="main__dopamine-contain">
-          <div class="main__elements main__dopamine">Дофамин</div>
+        <article class="main__dopamine-contain">
+          <h3 class="main__elements main__dopamine">Дофамин</h3>
           <p class="main__text main__text-padding">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
             невозможности сосредоточиться замешана и полная противоположность
@@ -91,15 +91,15 @@
             удовольствие. Получается замкнутый круг: чем больше отвлекаешься,
             тем больше удовольствия получаешь.
           </p>
-        </div>
+        </article>
       </section>
 
       <h2 class="main__title-concentration">
         Что снижает концентрацию внимания?
       </h2>
       <section class="main__concentration-factors">
-        <div class="factor-group">
-          <div class="main__elements">Концентрация</div>
+        <article class="factor-group">
+          <h3 class="main__elements">Концентрация</h3>
           <p class="main__text main__text-concentration">
             Как концентрация может снижаться из-за… концентрации? Любая
             стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш
@@ -108,9 +108,9 @@
             — невозможно. Концентрация — мышца, и она может не выдержать, если
             не давать ей отдохнуть.
           </p>
-        </div>
-        <div class="factor-group">
-          <div class="main__elements">Eда</div>
+        </article>
+        <article class="factor-group">
+          <h3 class="main__elements">Eда</h3>
           <p class="main__text">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
             доставляют в мозг энергию и помогают ему лучше работать. Но уходит
@@ -119,9 +119,9 @@
             заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
             больше быстрых углеводов.
           </p>
-        </div>
-        <div class="factor-group">
-          <div class="main__elements">Гаджеты</div>
+        </article>
+        <article class="factor-group">
+          <h3 class="main__elements">Гаджеты</h3>
           <p class="main__text main__text-padding">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
             наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными
@@ -131,7 +131,7 @@
             что чем больше времени мы проводим в гаджетах, тем больше времени
             затем нужно, чтобы вернуться к работе.
           </p>
-        </div>
+        </article>
       </section>
 
       <section class="main__concentration-ways">
@@ -140,13 +140,13 @@
           секунд)
         </h2>
         <div>
-          <div class="main__elements main__elements-margin">
+          <h3 class="main__elements main__elements-margin">
             5 простых (на самом деле не очень) советов
-          </div>
+          </h3>
           <div class="main__elements-columns">
-            <div class="main__elements title__decor">
+            <h4 class="main__elements title__decor">
               Представьте небо и облака
-            </div>
+            </h4>
             <p class="main__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -159,7 +159,7 @@
             </p>
           </div>
           <div class="main__elements-columns">
-            <div class="main__elements title__decor">Включите музыку</div>
+            <h4 class="main__elements title__decor">Включите музыку</h4>
             <p class="main__text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -168,7 +168,7 @@
             </p>
           </div>
           <div class="main__elements-columns">
-            <div class="main__elements title__decor">Прогуляйтесь</div>
+            <h4 class="main__elements title__decor">Прогуляйтесь</h4>
             <p class="main__text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
@@ -184,7 +184,7 @@
             </p>
           </div>
           <div class="main__elements-columns">
-            <div class="main__elements title__decor">Хорошо ешьте</div>
+            <h4 class="main__elements title__decor">Хорошо ешьте</h4>
             <p class="main__text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
@@ -193,7 +193,7 @@
             </p>
           </div>
           <div class="main__elements-columns">
-            <div class="main__elements title__decor">Читайте</div>
+            <h4 class="main__elements title__decor">Читайте</h4>
             <p class="main__text main__text-padding">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -204,48 +204,48 @@
         </div>
       </section>
 
-      <div class="main__elements gallery__title">А можно в картинках?</div>
+        <h3 class="main__elements gallery__title">А можно в картинках?</h3>
       <section class="gallery">
-        <figure class="gallery__item">
+        <div class="gallery__item">
           <img
             src="./images/sunset.png"
             alt="Закат над морем с горами и птицами"
             class="gallery__image"
             loading="lazy"
           />
-        </figure>
-        <figure class="gallery__item">
+        </div>
+        <div class="gallery__item">
           <img
             src="./images/ice-cream.png"
             alt="Мороженое с фруктами и вафельными трубочками"
             class="gallery__image"
             loading="lazy"
           />
-        </figure>
-        <figure class="gallery__item">
+        </div>
+        <div class="gallery__item">
           <img
             src="./images/tape.png"
             class="gallery__image"
             alt="Ретро аудиокассета и плеер в фиолетовых тонах"
             loading="lazy"
           />
-        </figure>
-        <figure class="gallery__item">
+        </div>
+        <div class="gallery__item">
           <img
             src="./images/books.png"
             alt="Стопка книг с чашкой сверху"
             class="gallery__image"
             loading="lazy"
           />
-        </figure>
-        <figure class="gallery__item">
+        </div>
+        <div class="gallery__item">
           <img
             class="img__padding gallery__image"
             src="./images/street.png"
             alt="Улица в японском стиле"
             loading="lazy"
           />
-        </figure>
+        </div>
       </section>
     </main>
 
