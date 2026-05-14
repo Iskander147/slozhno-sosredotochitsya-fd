@@ -1,4 +1,4 @@
-  :root {
+:root {
   --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: rgb(4, 4, 47);
   --accent-color: #ff0070;
@@ -11,12 +11,12 @@
   --decorated-zone-color: #ff0070;
   --header__menu-border: rgba(255, 0, 112, 1);
   --header__menu-hover: rgba(255, 0, 112, 0.4);
-  --scrollbar-track-color: #000000; 
+  --scrollbar-track-color: #000000;
   --scrollbar-thumb-color: #535252;
 }
 
 @media (prefers-color-scheme: light) {
-  .theme-auto { 
+  .theme-auto {
     --page-bg-image: url("../images/cover-image-light.png");
     --page-bg-color: #fff1f7;
     --accent-color: rgba(255, 141, 203, 1);
@@ -29,7 +29,7 @@
     --decorated-zone-color: rgba(53, 52, 48, 1);
     --header__menu-border: rgba(53, 52, 48, 1);
     --header__menu-hover: rgba(50, 49, 45, 0.4);
-    --scrollbar-track-color: #000000; 
+    --scrollbar-track-color: #000000;
     --scrollbar-thumb-color: #535252;
   }
 }
