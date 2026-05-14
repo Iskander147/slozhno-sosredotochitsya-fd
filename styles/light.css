@@ -11,33 +11,6 @@
   --decorated-zone-color: rgba(53, 52, 48, 1);
   --header__menu-border: rgba(53, 52, 48, 1);
   --header__menu-hover: rgba(50, 49, 45, 0.4);
-}
-
-@media (prefers-color-scheme: dark) {
-  .theme-light {
-    --scrollbar-track-color: #000000;
-    --scrollbar-thumb-color: #535252;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .theme-light {
-    --scrollbar-track-color: #ffffff;
-    --scrollbar-thumb-color: rgb(196, 196, 196);
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-  }
-}
-.theme-light::-webkit-scrollbar {
-  width: 14px;
-}
-
-.theme-light::-webkit-scrollbar-track {
-  background: var(--scrollbar-track-color);
-}
-
-.theme-light::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb-color);
-  border-radius: 6px;
-  border: 3px solid var(--scrollbar-track-color);
+  --scrollbar-track-color: #000000; 
+  --scrollbar-thumb-color: #535252;
 }

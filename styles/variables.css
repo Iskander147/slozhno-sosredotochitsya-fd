@@ -1,24 +1,22 @@
-@media (prefers-color-scheme: dark) {
-  .theme-auto {
-    --page-bg-color: rgb(4, 4, 47);
-    --accent-color: #ff0070;
-    --page-bg-image: url("../images/cover-image-dark.png");
-    --page-bg-color: rgb(4, 4, 47);
-    --accent-color: #ff0070;
-    --header__clr-menu: rgba(255, 0, 112, 1);
-    --text-color: rgba(0, 0, 40, 1);
-    --focus-color: rgba(219, 0, 255, 1);
-    --contain-color: rgba(255, 0, 112, 1);
-    --main-text-color: rgba(241, 178, 206, 1);
-    --rec-text-color: rgba(255, 0, 112, 1);
-    --decorated-zone-color: #ff0070;
-    --header__menu-border: rgba(255, 0, 112, 1);
-    --header__menu-hover: rgba(255, 0, 112, 0.4);
-  }
+  :root {
+  --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: rgb(4, 4, 47);
+  --accent-color: #ff0070;
+  --header__clr-menu: rgba(255, 0, 112, 1);
+  --text-color: rgba(0, 0, 40, 1);
+  --focus-color: rgba(219, 0, 255, 1);
+  --contain-color: rgba(255, 0, 112, 1);
+  --main-text-color: rgba(241, 178, 206, 1);
+  --rec-text-color: rgba(255, 0, 112, 1);
+  --decorated-zone-color: #ff0070;
+  --header__menu-border: rgba(255, 0, 112, 1);
+  --header__menu-hover: rgba(255, 0, 112, 0.4);
+  --scrollbar-track-color: #000000; 
+  --scrollbar-thumb-color: #535252;
 }
 
 @media (prefers-color-scheme: light) {
-  .theme-auto {
+  .theme-auto { 
     --page-bg-image: url("../images/cover-image-light.png");
     --page-bg-color: #fff1f7;
     --accent-color: rgba(255, 141, 203, 1);
@@ -31,35 +29,7 @@
     --decorated-zone-color: rgba(53, 52, 48, 1);
     --header__menu-border: rgba(53, 52, 48, 1);
     --header__menu-hover: rgba(50, 49, 45, 0.4);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .theme-auto {
-    --scrollbar-track-color: #000000;
+    --scrollbar-track-color: #000000; 
     --scrollbar-thumb-color: #535252;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
   }
-}
-
-@media (prefers-color-scheme: light) {
-  .theme-auto {
-    --scrollbar-track-color: #ffffff;
-    --scrollbar-thumb-color: #cccccc;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-  }
-}
-
-.theme-auto::-webkit-scrollbar {
-  width: 14px;
-}
-
-.theme-auto::-webkit-scrollbar-track {
-  background-color: var(--scrollbar-track-color);
-}
-
-.theme-auto::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb-color);
-  border-radius: 6px;
-  border: 3px solid var(--scrollbar-track-color);
 }

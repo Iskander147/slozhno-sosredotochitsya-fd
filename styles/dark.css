@@ -1,4 +1,4 @@
-:root.theme-dark {
+:root {
   --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: rgb(4, 4, 47);
   --accent-color: #ff0070;
@@ -11,33 +11,30 @@
   --decorated-zone-color: #ff0070;
   --header__menu-border: rgba(255, 0, 112, 1);
   --header__menu-hover: rgba(255, 0, 112, 0.4);
+  --scrollbar-track-color: #000000;
+  --scrollbar-thumb-color: #535252;
 }
 
-@media (prefers-color-scheme: dark) {
-  .theme-dark {
-    --scrollbar-track-color: #000000;
-    --scrollbar-thumb-color: #535252;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-  }
-}
-
+/* 2. Переопределение для светлой схемы (Авто-тема) */
 @media (prefers-color-scheme: light) {
-  .theme-dark {
-    --scrollbar-track-color: #ffffff;
-    --scrollbar-thumb-color: #cccccc;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+  :root { 
+    --page-bg-image: url("../images/cover-image-light.png");
+    --page-bg-color: #fff1f7;
+    --accent-color: rgba(255, 141, 203, 1);
+    --header__clr-menu: rgba(53, 52, 48, 1);
+    --text-color: rgba(53, 52, 48, 1);
+    --focus-color: rgba(255, 194, 230, 1);
+    --contain-color: rgba(255, 141, 203, 1);
+    --main-text-color: rgba(53, 52, 48, 1);
+    --rec-text-color: rgba(53, 52, 48, 0);
+    --decorated-zone-color: rgba(53, 52, 48, 1);
+    --header__menu-border: rgba(53, 52, 48, 1);
+    --header__menu-hover: rgba(50, 49, 45, 0.4);
+    --scrollbar-track-color: #000000; 
+    --scrollbar-thumb-color: #535252;
   }
 }
 
-.theme-dark::-webkit-scrollbar {
-  width: 15px;
-}
 
-.theme-dark::-webkit-scrollbar-track {
-  background-color: var(--scrollbar-track-color);
-}
 
-.theme-dark::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb-color);
-  border-radius: 6px;
-}
+
