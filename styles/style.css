@@ -286,8 +286,9 @@
     padding: 0px 20px 0 20px;
   }
 
-  .content-section {
+  .content__section {
     display: grid;
+    align-items: start;
     grid-template-columns: 236px 1fr;
     gap: 20px;
   }
@@ -340,7 +341,7 @@
     margin-bottom: 0;
   }
 
-  .main__elements-columns {
+  .card__elements {
     grid-column: 2;
   }
 
@@ -470,7 +471,7 @@
     grid-template-columns: repeat(2, 3fr) 315px;
   }
 
-  .content-section {
+  .content__section {
     grid-template-columns: 315px 1fr;
   }
 
