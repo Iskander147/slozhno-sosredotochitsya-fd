@@ -337,12 +337,6 @@
     margin-bottom: 0;
   }
 
-  .main__concentration-ways {
-    display: grid;
-    grid-template-columns: 236px 1fr;
-    gap: 20px;
-  }
-
   .main__elements-columns {
     grid-column: 2;
   }
@@ -477,11 +471,6 @@
     grid-template-columns: 315px 1fr;
   }
 
-  .main__concentration-ways {
-    display: grid;
-    grid-template-columns: 315px 1fr;
-    gap: 20px;
-  }
 
   .main__title-concentration {
     margin-bottom: 20px;
