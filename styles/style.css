@@ -292,6 +292,10 @@
     gap: 20px;
   }
 
+  .content-top {
+    padding-top: 60px;
+  }
+
   .main__title {
     padding-top: 0;
     padding-left: 0;
