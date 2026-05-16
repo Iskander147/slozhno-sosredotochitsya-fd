@@ -456,10 +456,6 @@ box-sizing: border-box;
     gap: 0px;
   }
 
-  .header__focus {
-    margin-top: 250px;
-  }
-
   .header__contain-text {
     margin-top: 114px;
     margin-bottom: 134px;
