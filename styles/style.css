@@ -120,7 +120,7 @@
   background-color: var(--contain-color);
   margin-top: 55px;
   color: var(--text-color);
-  margin-bottom: 66px;
+  margin-bottom: 56px;
 }
 
 .header__contain-text p {
@@ -145,6 +145,7 @@
   padding-left: 10px;
   padding-bottom: 18px;
 }
+
  .card{
   box-sizing: border-box;
  }
