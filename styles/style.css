@@ -1,7 +1,7 @@
 .header {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr min-content 1fr;
+  grid-template-rows: min-content min-content 1fr;
   background-image: var(--page-bg-image);
   background-size: cover;
   background-position: center;
@@ -21,6 +21,7 @@
   justify-self: end;
   color: var(--rec-text-color);
   padding-right: 33px;
+  padding-bottom: 39px;
 }
 
 .header__rec-text::after {
@@ -30,7 +31,7 @@
   height: 9px;
   border-radius: 50%;
   background: var(--rec-text-color);
-  top: 55%;
+  top: 23%;
   right: 10px;
   transform: translateY(-50%);
   box-shadow: 0 0 6px 3px var(--rec-text-color);
