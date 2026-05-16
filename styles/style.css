@@ -111,6 +111,7 @@
   font-weight: 700;
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
+  padding-top: 65px;
 }
 
 .header__contain-text {
