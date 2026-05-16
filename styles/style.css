@@ -208,8 +208,8 @@
   line-height: 23.4px;
 }
 
-.gallery__contain{
- display: grid;
+.gallery__contain {
+  display: grid;
   grid-template-columns: minmax(355px, 1fr);
   gap: 10px;
   padding: 10px;
@@ -474,7 +474,6 @@
   .content__section {
     grid-template-columns: 315px 1fr;
   }
-
 
   .main__title-concentration {
     margin-bottom: 20px;
