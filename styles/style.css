@@ -118,7 +118,7 @@
   max-width: 350px;
   width: 100%;
   background-color: var(--contain-color);
-  margin-top: 52px;
+  margin-top: 55px;
   color: var(--text-color);
   margin-bottom: 66px;
 }
@@ -456,7 +456,7 @@ box-sizing: border-box;
   }
 
   .header__focus {
-    margin-top: 273px;
+    margin-top: 250px;
   }
 
   .header__contain-text {
