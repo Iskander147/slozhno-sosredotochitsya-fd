@@ -120,6 +120,7 @@
   background-color: var(--contain-color);
   margin-top: 52px;
   color: var(--text-color);
+  margin-bottom: 66px;
 }
 
 .header__contain-text p {
