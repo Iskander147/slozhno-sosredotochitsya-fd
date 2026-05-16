@@ -1,7 +1,7 @@
 .header {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: min-content min-content min-content min-content;
+  grid-template-rows: 1fr min-content 1fr;
   background-image: var(--page-bg-image);
   background-size: cover;
   background-position: center;
@@ -94,7 +94,6 @@
   border: 1px solid var(--header__menu-hover);
 }
 
-
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--header__menu-border);
@@ -137,7 +136,6 @@
 }
 
 .main__title {
-  max-width: 355px;
   padding-top: 40px;
   font-size: 18px;
   line-height: 23.4px;
@@ -146,9 +144,12 @@
   padding-left: 10px;
   padding-bottom: 18px;
 }
-
+ .card{
+  box-sizing: border-box;
+ }
+ /--------------------?я тут остановился_____________//
 .main__elements {
-  width: 355px;
+box-sizing: border-box;
   margin: 0 auto;
   background-color: var(--contain-color);
   color: var(--text-color);
