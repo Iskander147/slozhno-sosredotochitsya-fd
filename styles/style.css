@@ -82,17 +82,18 @@
   background-color: inherit;
   color: var(--header__clr-menu);
   border: none;
+  width: 70px;
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--header__menu-border);
-  width: 67px;
 }
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--header__menu-hover);
 }
+
 
 .header__theme-menu-button:focus-visible {
   outline: none;
@@ -106,7 +107,7 @@
 }
 
 .header__focus {
-  font-size: 114px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--focus-color);
   font-weight: 700;
   line-height: 83%;
@@ -264,7 +265,7 @@
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color);
     margin-top: 173px;
-    font-size: 120px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__contain-text {
@@ -454,9 +455,6 @@
 
   .header__focus {
     margin-top: 273px;
-    color: var(--focus-color);
-    text-shadow: 4px 4px 0 var(--accent-color);
-    font-size: 157px;
   }
 
   .header__contain-text {
