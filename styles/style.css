@@ -437,7 +437,7 @@
 
 @media (width >= 1024px) {
   .header {
-    min-height: max(100vh, 768px);
+    height: 100vh;
     grid-template-rows: auto 1fr 1fr;
   }
   .header__rec-text::after {
