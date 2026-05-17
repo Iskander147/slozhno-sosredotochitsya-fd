@@ -441,7 +441,7 @@ background-image: var(--page-bg-image);
     grid-template-rows: auto 1fr auto;
   }
       .header__rec-text::after {
-        top: 22%;
+        top: 55%;
     }
 
   .header__theme-menu-list {
