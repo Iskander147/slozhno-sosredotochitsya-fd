@@ -99,10 +99,10 @@
 }
 
 .page {
-background-image: var(--page-bg-image);
-  background-position: center; 
+  background-image: var(--page-bg-image);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   background-attachment: fixed;
   background-color: var(--page-bg-color);
 }
@@ -239,7 +239,7 @@ background-image: var(--page-bg-image);
 }
 
 .footer__focus {
-  font-size:  clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--focus-color);
   font-weight: 700;
   line-height: 83%;
@@ -255,12 +255,12 @@ background-image: var(--page-bg-image);
   }
 
   .header__rec-text::after {
-  top: 15%;
+    top: 15%;
   }
 
   .header__rec-text {
     padding-bottom: 0;
-}
+  }
 
   .header__focus {
     margin-left: -20px;
@@ -268,18 +268,18 @@ background-image: var(--page-bg-image);
     font-weight: 700;
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color);
-    margin-top: 110px;
+    margin-top: 105px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  .header__contain{
-    gap: 10px;
+  .header__contain {
+    gap: 36px;
   }
 
   .header__contain-text {
     margin-right: 3px;
     display: grid;
     margin-top: 162px;
-    margin-bottom: 183px;
+    margin-bottom: 188px;
     justify-self: end;
   }
 
@@ -424,9 +424,9 @@ background-image: var(--page-bg-image);
     margin-top: 60px;
     padding: 20px;
   }
-  
-    .footer__focus {
-    font-size:  clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  .footer__focus {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .decorated-zone::after {
@@ -440,9 +440,9 @@ background-image: var(--page-bg-image);
     min-height: max(100vh, 768px);
     grid-template-rows: auto 1fr auto;
   }
-      .header__rec-text::after {
-        top: 55%;
-    }
+  .header__rec-text::after {
+    top: 55%;
+  }
 
   .header__theme-menu-list {
     line-height: 18px;
@@ -468,7 +468,7 @@ background-image: var(--page-bg-image);
   }
 
   .header__focus {
-margin-top: 150px;
+    margin-top: 150px;
   }
 
   .header__contain-text {
