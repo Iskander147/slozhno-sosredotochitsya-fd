@@ -255,8 +255,12 @@ background-image: var(--page-bg-image);
   }
 
   .header__rec-text::after {
-  top: 8%;
+  top: 11%;
   }
+
+  .header__rec-text {
+    padding-bottom: 0;
+}
 
   .header__focus {
     margin-left: -20px;
@@ -264,7 +268,7 @@ background-image: var(--page-bg-image);
     font-weight: 700;
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color);
-    margin-top: 173px;
+    margin-top: 100px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
