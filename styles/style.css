@@ -437,8 +437,8 @@
 
 @media (width >= 1024px) {
   .header {
-    min-height: 100vh;
-    grid-template-rows: auto 1fr 1fr;
+    min-height: max(100vh, 768px);
+    grid-template-rows: auto 1fr auto;
   }
   .header__rec-text::after {
     top: 55%;
@@ -472,7 +472,7 @@
   }
 
   .header__contain-text {
-    margin-top: 114px;
+    margin-top: 0;
     margin-bottom: 134px;
     max-width: 491px;
   }
