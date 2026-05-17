@@ -248,7 +248,7 @@
 
 @media (width >= 768px) {
   .header {
-    min-height: max(100vh, 1024px);
+    min-height: max(100vh, 768px);
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr 1fr min-content;
@@ -472,7 +472,7 @@
   }
 
   .header__contain-text {
-    margin-bottom: 89px;
+    margin-bottom: 134px;
     max-width: 491px;
   }
 
