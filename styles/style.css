@@ -272,7 +272,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__contain {
-    gap: 100px;
+    gap: 110px;
   }
 
   .header__contain-text {
