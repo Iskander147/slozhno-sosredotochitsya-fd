@@ -15,7 +15,7 @@
   --scrollbar-thumb-color: #535252;
 }
 
-/* 2. Переопределение для светлой схемы (Авто-тема) */
+
 @media (prefers-color-scheme: light) {
   :root {
     --page-bg-image: url("../images/cover-image-light.png");
