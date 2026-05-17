@@ -254,8 +254,8 @@ background-image: var(--page-bg-image);
     grid-template-rows: 1fr 1fr min-content;
   }
 
-  .header__contain {
-    gap: 146px;
+  .header__rec-text::after {
+  top: 8%;
   }
 
   .header__focus {
@@ -433,6 +433,9 @@ background-image: var(--page-bg-image);
     min-height: max(100vh, 768px);
     grid-template-rows: auto 1fr auto;
   }
+      .header__rec-text::after {
+        top: 22%;
+    }
 
   .header__theme-menu-list {
     line-height: 18px;
