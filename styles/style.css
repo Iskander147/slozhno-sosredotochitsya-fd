@@ -100,16 +100,9 @@
 
 .page {
 background-image: var(--page-bg-image);
-  
-  /* ИСПРАВЛЕНИЕ: Картинка должна центрироваться по экрану, а не по всему сайту */
-  background-position: center top; /* или просто center */
+  background-position: center; 
   background-repeat: no-repeat;
-  
-  /* КРИТИЧНО: Картинка подстраивается под размеры видимого окна */
   background-size: cover; 
-  
-  /* ГЛАВНЫЙ СЕКРЕТ: Картинка приклеивается к экрану. 
-     Она застынет на месте, и в хедере сразу появится нужное изображение! */
   background-attachment: fixed;
   background-color: var(--page-bg-color);
 }
