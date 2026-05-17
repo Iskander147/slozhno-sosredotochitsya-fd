@@ -268,7 +268,7 @@
     font-weight: 700;
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color);
-    margin-top: 115px;;
+    margin-top: 90px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__contain {
