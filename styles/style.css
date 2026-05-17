@@ -255,7 +255,7 @@ background-image: var(--page-bg-image);
   }
 
   .header__rec-text::after {
-  top: 11%;
+  top: 15%;
   }
 
   .header__rec-text {
@@ -268,8 +268,11 @@ background-image: var(--page-bg-image);
     font-weight: 700;
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color);
-    margin-top: 100px;
+    margin-top: 110px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+  .header__contain{
+    gap: 10px;
   }
 
   .header__contain-text {
