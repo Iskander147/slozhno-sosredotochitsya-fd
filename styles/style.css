@@ -175,12 +175,14 @@
 }
 
 .main__text-link {
-  text-decoration: none;
+   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
 }
 
 .main__text-link:hover {
-  text-decoration: underline;
+   border-bottom-color: currentColor;
 }
 
 .main__text-link:focus-visible {
@@ -265,13 +267,10 @@
 
   .header__focus {
     margin-left: -20px;
-    color: var(--focus-color);
-    font-weight: 700;
-    line-height: 83%;
-    text-shadow: 4px 4px 0 var(--accent-color);
     margin-top: 90px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
   .header__contain {
     gap: 110px;
   }
@@ -511,7 +510,6 @@
   border: 3px solid var(--scrollbar-track-color);
 }
 
-/* Стандартное свойство для Firefox тоже тут */
 :root {
   scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
   scrollbar-width: thin;
