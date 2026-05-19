@@ -119,7 +119,7 @@
 }
 
 .header__contain-text {
-  max-width: 350px;
+  width: 100%;
   background-color: var(--contain-color);
   margin-top: 55px;
   color: var(--text-color);
@@ -133,6 +133,7 @@
 }
 
 .header__text {
+  width: 100%;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--text-color);
@@ -140,7 +141,7 @@
 }
 
 .main__title {
-  max-width: 355px;
+  width: 100%;
   padding-top: 40px;
   font-size: 18px;
   line-height: 23.4px;
