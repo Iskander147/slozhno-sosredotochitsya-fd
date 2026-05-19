@@ -175,14 +175,14 @@
 }
 
 .main__text-link {
-   text-decoration: none;
+  text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s ease;
 }
 
 .main__text-link:hover {
-   border-bottom-color: currentColor;
+  border-bottom-color: currentColor;
 }
 
 .main__text-link:focus-visible {
@@ -304,11 +304,13 @@
   }
 
   .main__title {
+    width: 100%;
     padding-top: 0;
     padding-left: 0;
   }
 
   .main__text {
+    width: 100%;
     padding-bottom: 0;
     grid-column: 2;
     max-width: 100%;
@@ -493,6 +495,13 @@
 
   .footer {
     min-height: max(100vh, 768px);
+  }
+}
+
+@media (width >= 1024px) {
+  .page {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 
