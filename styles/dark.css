@@ -1,4 +1,4 @@
-:root.theme-dark   {
+:root.theme-dark {
   --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: rgb(4, 4, 47);
   --accent-color: #ff0070;
@@ -14,4 +14,3 @@
   --scrollbar-track-color: #000000;
   --scrollbar-thumb-color: #535252;
 }
-

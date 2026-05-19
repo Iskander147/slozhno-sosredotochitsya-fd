@@ -1,4 +1,4 @@
-:root.theme-light  {
+:root.theme-light {
   --page-bg-image: url("../images/cover-image-light.png");
   --page-bg-color: #fff1f7;
   --accent-color: rgba(255, 141, 203, 1);
@@ -14,7 +14,6 @@
   --scrollbar-track-color: #000000;
   --scrollbar-thumb-color: #535252;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
